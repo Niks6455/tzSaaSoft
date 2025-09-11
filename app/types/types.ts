@@ -10,3 +10,12 @@ export interface SelectOption {
   id: string | number
   title: string
 }
+
+export type Account = {
+  id: string
+  label: { text: string }[]
+  recordType: string
+  login: string
+  password?: string | null
+  isEditing?: boolean
+}

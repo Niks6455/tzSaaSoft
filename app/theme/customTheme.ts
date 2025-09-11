@@ -31,6 +31,7 @@ const preset = definePreset(Aura, {
           50: 'var(--surface-50)',
           100: 'var(--surface-100)',
           200: 'var(--surface-200)',
+          0: '#ffffff',
         },
         text: {
           primary: 'var(--text-primary)',
@@ -120,6 +121,7 @@ const preset = definePreset(Aura, {
           background: 'var(--primary-500)',
           focus: {
             color: 'white',
+            background: 'var(--primary-600)',
           },
         },
         border: {
@@ -130,8 +132,10 @@ const preset = definePreset(Aura, {
       overlay: {
         border: {
           radius: '{border.radius.sm}',
+          color: 'var(--surface-200)',
         },
-        background: 'var(--surface-50)',
+        background: 'var(--surface-0)',
+        shadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)', 
       },
     },
   },

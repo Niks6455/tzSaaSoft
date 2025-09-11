@@ -5,10 +5,7 @@ import customTheme from './app/theme/customTheme'
 export default defineNuxtConfig({
   compatibilityDate: '2025-09-11',
   devtools: { enabled: true },
-  css: [
-     '~/assets/css/main.css',
-     'primeicons/primeicons.css'
-  ],
+  css: ['~/assets/css/main.css', 'primeicons/primeicons.css'],
   vite: {
     plugins: [tailwindcss()],
   },

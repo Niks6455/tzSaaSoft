@@ -1,0 +1,15 @@
+.p-select-list{
+    background-color: var(--color-white)!important;
+}
+
+.p-select-option:hover{
+    background-color: var(--primary-300)!important;
+}
+
+.p-select-option:hover span{
+    color: #ffffff;
+}
+
+.p-inputtext{
+    width: 100%;
+}
