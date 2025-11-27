@@ -1,37 +1,26 @@
 @import "tailwindcss";
-@import './fonts.css';
-@import './inputs.css';
+@import "./fonts.css";
 
 :root {
-  --primary-50: #f0f9fa;
-  --primary-100: #e1f3f5;
-  --primary-200: #bce6eb;
-  --primary-300: #96d9e0;
-  --primary-400: #78bcc4;
-  --primary-500: #5a9fa8;
-  --primary-600: #457a83;
-  --primary-700: #30555e;
-  --primary-800: #1c3039;
-  --primary-900: #002c3e;
-  --primary-950: #001a25;
-  
-  --secondary-50: #f0f4f5;
-  --secondary-100: #e1e9eb;
-  --secondary-200: #b8d1d6;
-  --secondary-300: #8fb9c2;
-  --secondary-400: #66a1ad;
-  --secondary-500: #4d828d;
-  --secondary-600: #3a646e;
-  --secondary-700: #27464f;
-  --secondary-800: #142830;
-  --secondary-900: #000a11;
-  --secondary-950: #000508;
+  --text-default: #1c1d21;
+  --blue-primary: #93b2db;
+  --blue-light: #cdd9e9;
+  --blue-dark: #476d9f;
+
+  --gradient-blue-text: radial-gradient(
+    71.66% 199.46% at 92.13% 90.12%,
+    #2460b0 0%,
+    #7ca9e6 98.77%
+  );
+
+  --gradient-blue-card: radial-gradient(
+    76.36% 212.87% at 87.43% 91.15%,
+    #476d9f 0%,
+    #93b2db 55.72%
+  );
 }
 
-
 body {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Inter", sans-serif;
   transition: background-color 0.3s, color 0.3s;
-  background: #f0f9fa;
-  color: #002c3e;
 }

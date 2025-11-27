@@ -1,21 +1,14 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
-import tailwindcss from '@tailwindcss/vite'
-import customTheme from './app/theme/customTheme'
+import tailwindcss from "@tailwindcss/vite"
 
 export default defineNuxtConfig({
-  compatibilityDate: '2025-09-11',
+  compatibilityDate: "2025-09-27",
   devtools: { enabled: true },
-  css: ['~/assets/css/main.css', 'primeicons/primeicons.css'],
+  css: ["~/assets/css/main.css"],
   vite: {
     plugins: [tailwindcss()],
   },
-  modules: [
-    '@primevue/nuxt-module',
-    '@vueuse/nuxt',
-    '@pinia/nuxt',
-    '@pinia-plugin-persistedstate/nuxt',
-  ],
+  modules: ["@primevue/nuxt-module", "@vueuse/nuxt"],
   primevue: {
-    options: { theme: customTheme },
+    options: { theme: "aura" },
   },
 })
